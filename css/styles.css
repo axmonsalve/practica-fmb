@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300,400,700');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   font-size: 100%;
 }
@@ -79,6 +84,10 @@ body {
   padding: 1rem;
   line-height: 2rem;
   font-size: 1rem;
+}
+
+.lista-basico li{
+  padding: 0;
 }
 
 
