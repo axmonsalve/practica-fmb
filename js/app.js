@@ -20,7 +20,7 @@ UIBtnVerMas.forEach((button) => {
 UIBtnVerMasCofres.forEach((button) => {
   button.addEventListener('click', function(e){
     e.preventDefault();
-    if(!e.target.classList.contains('ver-mas-cofres')){
+    if(e.target.classList.contains('ver-mas-cofres')){
       button.textContent = 'Ocultar cofres'
       button.classList.remove('ver-mas-cofres')
       button.classList.add('ver-menos-cofres')
